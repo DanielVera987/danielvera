@@ -175,6 +175,10 @@ p {
   align-items: center;
 }
 
+.header .container .logo a img{
+  width: 120px;
+}
+
 .logo img {
   width: 150px;
 }
@@ -194,7 +198,7 @@ p {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width: 80%;
 }
 
 .about .cv{
