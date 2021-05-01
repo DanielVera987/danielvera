@@ -194,7 +194,7 @@ p {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 85%;
 }
 
 .about .cv{
@@ -309,7 +309,7 @@ p {
 
 .contact img{
   display: block;
-  width: 45%;
+  width: 100%;
   margin: 45px auto;
 }
 
@@ -377,5 +377,9 @@ p {
 
   .contact .email{
     font-size: 3.5vw;
+  }
+
+  .contact img{
+    width: 45%;
   }
  }
