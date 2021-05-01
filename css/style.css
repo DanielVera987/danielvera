@@ -231,8 +231,7 @@ p {
 }
 
 .portfolio .card{
-  margin: 2rem 0;
-  padding: 3rem;
+  margin: 3rem 0;
 }
 
 .portfolio .card-title {
@@ -249,13 +248,13 @@ p {
 
 .portfolio .card-content .card-img{
   display: block;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .portfolio .card-content .card-info{
-  padding: 1rem;
+  padding: 1rem 0;
   color: var(--color-white);
   text-align: center;
   font-size: 1.2rem;
@@ -264,6 +263,7 @@ p {
 .social {
   display: flex;
   justify-content: space-evenly;
+  flex-flow: row wrap;
   align-items: center;
 }
 
@@ -276,6 +276,7 @@ p {
   border-radius: 55px;
   text-decoration: none;
   color: var(--color-black);
+  margin: 8px;
 }
 
 .social a svg{
@@ -287,7 +288,7 @@ p {
 .contact .email{
   text-align: center;
   margin: 2rem 0;
-  font-size: 3.5vw;
+  font-size: 5.5vw;
 }
 
 .contact .email a{
@@ -356,6 +357,14 @@ p {
     width: 85%;
     font-size: 2.5vw;
   } 
+
+  .portfolio .card-content .card-info{
+    padding: 2rem;
+  }
+
+  .portfolio .card-content .card-img{
+    width: 80%;
+  }
   
   .card-content{
     display: grid;
@@ -364,5 +373,9 @@ p {
   
   .reverse img{
     order: 2;
+  }
+
+  .contact .email{
+    font-size: 3.5vw;
   }
  }
