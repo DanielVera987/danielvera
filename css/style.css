@@ -336,7 +336,7 @@ p {
   }
 
   .menu a:hover {
-    background-color: transparent;   
+    background-color: transparent;
   }
 
   .header {
@@ -345,22 +345,22 @@ p {
     padding: 0.5rem;
     height: cal(var(--header-height) - 0.5rem)
   }
-  
+
   .about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-content: center;
   }
-  
+
   .about .section_title{
     grid-column: span 2;
   }
-  
+
   .about .avatar{
     width: 85%;
     font-size: 2.5vw;
-  } 
+  }
 
   .portfolio .card-content .card-info{
     padding: 2rem;
@@ -369,12 +369,12 @@ p {
   .portfolio .card-content .card-img{
     width: 80%;
   }
-  
+
   .card-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .reverse img{
     order: 2;
   }
@@ -386,4 +386,58 @@ p {
   .contact img{
     width: 45%;
   }
- }
+}
+
+.card-links{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+.card-hader-links{
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+}
+
+.card-contenct-links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.links{
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  background-color: #212121;
+}
+
+.card-footer-links{
+  padding: 10px;
+}
+
+.bg-fb{
+  background-color: #4867aa;
+}
+.bg-linkedin{
+  background-color: #0073b1;
+}
+.bg-instagram{
+  background-color: #d32e7a;
+}
+.bg-twitter{
+  background-color: #1da1f2;
+}
+.bg-codepen{
+  background-color: #1d1e22;
+}
