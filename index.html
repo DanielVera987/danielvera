@@ -22,13 +22,13 @@
       <div class="logo">
         <a href="/"><img src="./img/logo_black.png" alt=""></a>
       </div>
-      
+
       <button class="menu-btn hamburger hamburger--collapse" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
       </button>
-      
+
       <nav class="menu">
         <a href="#sobre_mi">Sobre Mi</a>
         <a href="#portafolio">Portafolio</a>
@@ -36,24 +36,41 @@
       </nav>
     </section>
   </header>
-  
+
   <section id="inicio" class="home">
     <article class="hero-image" style="--image: url('https://danielvera987.github.io/danielvera/img/bg.jpeg'); --attachment: fixed;">
       <aside class="hero-image-opacity">
         <div class="hero-image-content">
           <h2 class="hero-image-title" style="--color: var(--white-color);">
-            Hola 🖐, Bienvenid@s<br> a mi sitio
+            Hola a todos🖐<br>Soy Daniel<br>
+            <span style="font-size: 20px;"><i>Un programador <span id="typed" class="transform"></span> </i></span>
+            <br />
+            <br />
           </h2>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="chevron-down"
+            class="svg-inline--fa fa-chevron-down fa-w-14 scrollDown__StyledIcon-sc-11jmwtl-1 haUUnJ"
+            style="width: 20px; color: #127eb1;"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg>
         </div>
       </aside>
     </article>
   </section>
-  
+
   <section class="about section content" id="sobre_mi">
       <h2 class="section_title">
         SOBRE MI
       </h2>
-      
+
       <article>
         <img src="./img/about.jpg" alt="_davadev" class="avatar">
         <br><br>
@@ -61,7 +78,7 @@
           <a href="./docs/CV-DanielVera.pdf" target="_blank">Descarga mi CV</a>
         </div>
       </article>
-      
+
       <article>
         <p>
           Hola, mi nombre es <span class="transform">Daniel Vera</span>, tengo 22 años, y soy super fan de la tecnologia y el software por lo que me llevo a convertirme en un Programador <span class="transform">Backend</span>.
@@ -78,9 +95,9 @@
           En la actualidad trabajo como programador en una firma de contadores en donde realizo mantenimiento, actualizaciones y optimización a un sistema CRM + ERP + facturador electrónico
         </p>
       </article>
-        
+
   </section>
-  
+
   <section class="portfolio section" id="portafolio">
     <h2 class="section_title">
       PORTAFOLIO<br>
@@ -228,7 +245,7 @@
        </figure>
      </article>
   </section>
-  
+
   <section class="contact section" id="contacto">
     <div class="content">
       <h2 class="section_title">
@@ -254,5 +271,15 @@
   </section>
 
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    const options = {
+      strings: ['Autodidacta.', 'Apacionado.', 'Comprometido.', 'Organizado.', 'Super Fan.'],
+      typeSpeed: 50,
+      loop: true
+    };
+
+    const typed = new Typed('#typed', options);
+  </script>
 </body>
 </html>
