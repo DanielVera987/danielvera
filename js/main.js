@@ -2,15 +2,15 @@ let d = document;
 
 /****** MENU *****/
 ((d) => {
-  const menu = d.querySelector(".menu"), 
-        menuBtn = d.querySelector(".menu-btn");
+  const btnMenu = d.getElementById('hamburger');
+  const toggle = d.getElementById('toggle');
 
-  menuBtn.addEventListener('click', () => {
-    menu.classList.toggle('is-active');
+  btnMenu.addEventListener('click', () => {
+    toggle.classList.toggle('menu-toggle');
   });
-  
+
   d.addEventListener('click', (e) => {
-    if(!e.target.matches('.menu a')) return false;
-    menu.classList.toggle('is-active');    
+    if (!e.target.matches('.social-menu div a')) return false;
+    toggle.classList.toggle('menu-toggle');
   })
 })(d)
