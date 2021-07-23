@@ -10,7 +10,7 @@ let d = document;
   });
 
   d.addEventListener('click', (e) => {
-    if (!e.target.matches('.social-menu div a')) return false;
+    if (!e.target.matches('.social-menu div span')) return false;
     toggle.classList.toggle('menu-toggle');
   })
 })(d)
