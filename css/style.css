@@ -131,7 +131,7 @@ p {
   transition: all .5s ease;
 }
 
-.header .social-menu a {
+.header .social-menu .menu-toggle a {
   padding: 15px;
   margin-right: 150px;
   margin-bottom: 10px;
