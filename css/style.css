@@ -95,12 +95,12 @@ p {
 }
 
 .header .logo img {
-  width: 290px;
+  width: 260px;
 }
 
 .header svg {
   padding: 0px;
-  margin: 5px;
+  margin: 0px 15px;
 }
 
 .header svg path {
@@ -166,12 +166,12 @@ p {
 }
 
 .home .avatar {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .home .avatar img {
+  width: 60%;
   margin: 15px auto;
   border-radius: 100%;
 }
@@ -300,6 +300,7 @@ p {
 
 .portfolio .card {
   margin: 3rem 0;
+  align-items: center;
 }
 
 .portfolio .card-title {
@@ -317,6 +318,7 @@ p {
 .portfolio .card-content .card-img {
   display: block;
   width: 100%;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 3px 3px 15px -2px rgba(18, 126, 177, 0.75);
@@ -365,7 +367,7 @@ p {
   align-items: center;
 }
 
-.social a {
+/* .social a {
   text-align: center;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -373,12 +375,12 @@ p {
   border-radius: 55px;
   text-decoration: none;
   margin: 8px;
-}
+} */
 
 .social a svg path {
   fill: var(--white);
-  width: 1.75rem;
-  height: 1.75rem;
+  /* width: 2.75rem;
+  height: 2.75rem; */
 }
 
 .contact .email {
@@ -399,8 +401,8 @@ p {
 }
 
 .contact .social a svg {
-  width: 2rem;
-  height: 2rem;
+  width: 64px;
+  height: 64px;
 }
 
 .contact img {
@@ -448,7 +450,6 @@ p {
 
   .header svg {
     width: 46px;
-    margin-right: 25px;
   }
 
   .header .social-menu .menu-toggle {
@@ -457,10 +458,10 @@ p {
   }
 
   .header .social-menu a {
-    margin: 0px 35px 0px 35px;
+    margin: 0px 25px 0px 25px;
     text-decoration: none;
     color: var(--white);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     background-color: transparent;
   }
@@ -478,7 +479,8 @@ p {
   }
 
   .home .avatar img {
-    width: 45%;
+    width: 62%;
+    height: 100%;
   }
 
   .home .skills nav svg {
@@ -534,8 +536,8 @@ p {
   }
 
   .header .social-menu a {
-    font-size: 22px;
-    margin: 0px 35px 0px 35px;
+    font-size: 20px;
+    margin: 0px 25px 0px 25px;
   }
 }
 
