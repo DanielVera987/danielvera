@@ -171,8 +171,8 @@ p {
 }
 
 .home .avatar img {
-  width: 60%;
-  margin: 15px auto;
+  width: 55%;
+  margin: 0px auto;
   border-radius: 100%;
 }
 
@@ -185,11 +185,6 @@ p {
 .home .skills nav {
   display: flex;
   justify-content: space-evenly;
-}
-
-.home .skills nav a {
-  text-decoration: none;
-  color: #fff;
 }
 
 /** COLORS DE ICONOS DE SKILLS */
@@ -484,7 +479,7 @@ p {
   }
 
   .home .skills nav svg {
-    width: 45px;
+    width: 35px;
   }
 
   .home .right hgroup h3 {
