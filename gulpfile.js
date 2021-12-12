@@ -39,7 +39,7 @@ function jsTask() {
 			presets: ['@babel/preset-env']
 		}))
         .pipe(terser())
-        .pipe(dest('./js/build/'));
+        .pipe(dest('./js/build'));
 }
 
 function watchTask() {
