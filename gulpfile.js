@@ -45,6 +45,7 @@ function jsTask() {
 function watchTask() {
     watch('*.html', browsersyncReload);
     watch('./css/src/**/*.scss', series(jsTask, cssTask, browsersyncReload));
+    watch('./js/src/**/*.js', series(jsTask, cssTask, browsersyncReload));
 }
 
 exports.default = series(
