@@ -9,6 +9,7 @@ const cleanCss = require("gulp-clean-css");
 const sourcemaps = require('gulp-sourcemaps')
 const babel = require('gulp-babel');
 const terser = require('gulp-terser');
+const imageMin = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
 
 function browsersyncServe(cb) {
@@ -42,6 +43,12 @@ function jsTask() {
         .pipe(dest('./js/build'));
 }
 
+function imageTask() {
+    return src('./assets/images/*')
+        .pipe(imageMin())
+        .pipe(dest('./assets/images'));
+}
+
 function watchTask() {
     watch('*.html', browsersyncReload);
     watch('./css/src/**/*.scss', series(jsTask, cssTask, browsersyncReload));
@@ -54,3 +61,4 @@ exports.default = series(
     browsersyncServe,
     watchTask
 );
+exports.image = imageTask;
