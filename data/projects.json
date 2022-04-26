@@ -1,8 +1,8 @@
 [
     {
         "id": "8",
-        "name": "danielvera.com.mx V2",
-        "description": "✅ Se realizarón mejoras en la estructura de carpetas, sera mas sencillo el encontrar algo. <br> ✅ Se integro gulp como herramienta para la compilación. <br /> ✅ Ahora la web esta creada con sass. <br> ✅Se creo un archivo json para los projectos, y consumir los datos con fetch.",
+        "name": "_davadev by Daniel Vera V2",
+        "description": "✅  Se realizarón mejoras en la estructura de carpetas, sera mas sencillo el encontrar algo. <br> ✅  Se integro gulp como herramienta para la compilación. <br /> ✅  Ahora la web esta creada con sass. <br> ✅ Se creo un archivo json para los projectos, y consumir los datos con fetch.",
         "image": "./assets/images/danielvera.png",
         "tags": [
             "html",

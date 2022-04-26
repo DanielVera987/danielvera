@@ -2,19 +2,6 @@ let d = document;
 
 /****** MENU *****/
 ((d) => {
-    const btnMenu = d.getElementById('hamburger');
-    const toggle = d.getElementById('toggle'); 
-
-    btnMenu.addEventListener('click', () => {
-        toggle.classList.toggle('menu-toggle');
-    });
-
-    d.addEventListener('click', (e) => {
-        if (!e.target.matches('.item')) return false;
-        toggle.classList.toggle('menu-toggle');
-    });
-
-
     /***********************/
     /*      Get Data       */
     /***********************/
@@ -69,26 +56,4 @@ let d = document;
             return $tags;
         }
     }, false);
-
-    /***********************/
-    /*     Accordion       */
-    /***********************/
-    var acc = document.getElementsByClassName("card-header");
-
-    for (let i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function(e) {
-            let card = this.parentNode.parentNode
-            let panel = this.nextElementSibling;
-            this.classList.toggle("active");
-
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-                card.style.backgroundColor = "#2a2e37";
-            } else {
-                card.style.backgroundColor = "#3C4451";
-                panel.style.display = "block";
-            }
-        });
-    }
-
 })(d);
