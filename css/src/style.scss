@@ -192,6 +192,22 @@ main {
             }
         }
     }
+
+    /** Certificates */
+    .certificates {
+        .card {
+            background-color: #3C4451;
+
+            .link-company {
+                color: #127eb1;
+
+                &:hover { 
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
 
 /* Footer */
