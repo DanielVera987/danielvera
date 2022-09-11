@@ -1,81 +1,17 @@
 [
     {
         "id": "8",
-        "name": "_davadev by Daniel Vera V2",
+        "name": "Portafolio v2.0",
         "description": "✅  Se realizarón mejoras en la estructura de carpetas, sera mas sencillo el encontrar algo. <br> ✅  Se integro gulp como herramienta para la compilación. <br /> ✅  Ahora la web esta creada con sass. <br> ✅ Se creo un archivo json para los projectos, y consumir los datos con fetch.",
         "image": "./assets/images/danielvera.png",
         "tags": [
             "html",
             "css",
-            "js",
-            "sass"
+            "sass",
+            "js"
         ],
         "repository": "https://github.com/DanielVera987/danielvera",
         "url": "https://danielvera.com.mx/"
-    },
-    {
-        "id": "7",
-        "name": "React Shop",
-        "description": "Aplicación de tipo Shop creada con react, sass, webpack",
-        "image": "./assets/images/reac-shop.png",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "react",
-            "webpack",
-            "sass"
-        ],
-        "repository": "https://github.com/DanielVera987/react-shop-platzi",
-        "url": "https://app-react-shop.herokuapp.com/"
-    },
-    {
-        "id": "6",
-        "name": "Clone Netflix App",
-        "description": "Aplicación de Netflix realizado con Reactjs, Redux, Firebase",
-        "image": "./assets/images/clone-netflix.png",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "react",
-            "redux",
-            "firebase"
-        ],
-        "repository": "https://github.com/DanielVera987/netflix_clon_react",
-        "url": "https://clone-netflix-react.herokuapp.com/"
-    },
-    {
-        "id": "5",
-        "name": "Generador De Contraseñas",
-        "description": "Generador De Contraseñas se hizo uso de Nodejs para la generación de contraseña realizando cierto algoritmo y ReactJs para la parte de diseño, la aplicación se encuentra desplegada en Heroku.",
-        "image": "./assets/images/mern-generate-password.png",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "react",
-            "nodejs"
-        ],
-        "repository": "https://github.com/DanielVera987/mern-generate-password",
-        "url": "https://mern-generate-password.herokuapp.com/"
-    },
-    {
-        "id": "4",
-        "name": "To-Do List",
-        "description": "Aplicación desarrollada con el MERN STACK (MongoDb, Express, ReactJs, NodeJs). Se encuentra desplegada en Heroku y se hace uso de Firebase Google para la obtención de tiempo real de la información.",
-        "image": "./assets/images/mern-todo.png",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "react",
-            "nodejs",
-            "express",
-            "mongodb"
-        ],
-        "repository": "https://github.com/DanielVera987/mern-todo-list/",
-        "url": "https://todo-list-mern-davadev.herokuapp.com/"
     },
     {
         "id": "3",
@@ -91,22 +27,6 @@
             "mysql"
         ],
         "repository": "https://github.com/DanielVera987/factudav",
-        "url": ""
-    },
-    {
-        "id": "2",
-        "name": "SoftPsico",
-        "description": "Es un sistema opensource hecho en laravel, para llevar el control de tus pacientes y citas, poder subir documentos y asi como ver tu agenda y avances del paciente.",
-        "image": "./assets/images/softpsico.png",
-        "tags": [
-            "html",
-            "css",
-            "js",
-            "php",
-            "laravel",
-            "mysql"
-        ],
-        "repository": "https://github.com/DanielVera987/Software-Psicologia",
         "url": ""
     },
     {
