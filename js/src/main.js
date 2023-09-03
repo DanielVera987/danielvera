@@ -6,7 +6,7 @@ let d = document;
     /*      Get Data       */
     /***********************/
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('../../data/projects.json')
+        fetch('../data/projects.json')
         .then(data => data.json())
         .then(data => data.map(project => {
             console.log(project);
