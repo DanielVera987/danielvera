@@ -2,8 +2,6 @@
 
 html {
     box-sizing: border-box;
-    font-family: $font;
-    font-size: 16px;
     scroll-behavior: smooth;
 }
 
@@ -11,7 +9,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     color: $text-color;
-    background-color: $bg-black;
+    background: radial-gradient(ellipse closest-corner at 50% 50%, rgba(18, 126, 177, 1) 0%, rgba(25, 81, 107, 1) 0%, rgba(29, 57, 70, 1) 0%, rgba(33, 33, 33, 1) 100%);
 }
 
 *,
@@ -58,25 +56,6 @@ h6 {
     font-size: 0.7rem;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 p {
     line-height: 1.6;
-}
-
-@media screen and (min-width: $md){
-    .content {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
-
-@media screen and (max-width: $md){
-    .content {
-        margin-left: 32px;
-        margin-right: 32px;
-    }
 }

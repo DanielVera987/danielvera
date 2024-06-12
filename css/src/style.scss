@@ -1,6 +1,6 @@
 @import "./vars";
 @import "./global";
-@import "./utils/card";
+@import "./utils/project";
 @import "./utils/tags";
 
 body {
@@ -8,185 +8,135 @@ body {
     font-weight: 400;
 }
 
-.navbar-brand {
-    font-weight: 900;
-    font-size: 30px;
-
-    .by {
-        font-size: 15px; 
-        margin-left: 20px;
-        color: $color-blue;
-    }
-}
-
-/* Section Title */
+/* General */
 .section-title {
     font-weight: 700;
 }
 
-/* Custom */
-.accordion {
-    .accordion-item {
-        background: transparent;
-        border: 1px solid rgba(109, 109, 109, 0.746);
-        border-radius: 15px;
-        margin: 1px 0;
+.container {
+    max-width: 900px!important;
+}
 
-        .accordion-header {
-            font-weight: 500;
+.btn-custom {
+    background-color: rgba(31 41 55 / 1);
+    color: rgb(255 255 255 / 1);
+    padding: 4px 16px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgb(75 85 99 / 1);
+    display: flex;
+    align-items: center;
+    width: fit-content;
 
-            .accordion-button {
-                color: $white;
-                background: transparent;
-                text-transform: capitalize;
-
-                &::after {
-                    background-image: url(../../assets/svg/down.svg);
-                    background-size: 14px;
-                }
-
-                &:focus,
-                &:focus-visible {
-                    box-shadow: unset;
-                }
-            }
-        }
-
-        .accordion-body {
-            img {
-                margin: 10px;
-            }
-        }
+    img {
+        width: 16px;
+        margin-right: 5px;
     }
-}
-.card-img img {
-    height: 230px;
-}
-.bg-primary {
-    background-color: $color-blue!important;
-}
 
-/* About */
-.about {
-    .avatar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-
-        img {
-            width: 20%;
-            border-radius: 100%;
-        }
-
-        span {
-            font-weight: 300;
-            font-size: 14px;
-            letter-spacing: 2px;
-            color: $color-blue;
-            text-transform: uppercase;
-        }
-
-        h1 {
-            font-weight: 900;
-        }
-
-        h4 {
-            font-weight: 500;
-        }
-
-        .social-networks {
-            img {
-                width: 35px;
-                margin: 0 10px;
-            }
-        }
+    &:hover {
+        color: #fff;
     }
 }
 
 /* Main */
 main {
-    padding: 60px 0;
-
     section {
         margin-bottom: 30px;
+        margin-top: 100px;
     }
 
-    /* Skills */
-    .skills {
-        .experience {
-            margin-left: 25px;
-            position: relative;
+    /* About */
+    .about {
+        &_avatar {
+            img {
+                width: 64px;
+                height: 64px;
+                object-fit: cover;
+                border-radius: 100%;
+            }
 
-            .item {
-                display: flex;
-                margin: 30px 0;
-                position: relative;
-                
-                .circle {
-                    width: 40px;
-                    height: 40px;
-                    background-color: $bg-blue;
-                    border-radius: 50%;
-                    z-index: 2;
-                    position: absolute;
+            span {
+                font-weight: 300;
+                font-size: 14px;
+                letter-spacing: 2px;
+                color: $color-white;
+                border-radius: 30px;
+                border: 1px solid $bg-blue;
+                padding: 4px 16px;
+                background-color: rgba(31 41 55 / 1);
+            }
+
+            &_position {
+                box-shadow: 0px 0px 20px 0px rgba(60, 122, 192, 0.75);
+            }
+        }
+
+        &_info {
+            &_title {
+                font-weight: 900;
+                font-size: 48px;
+            }
+
+            &_description {
+                font-size: 20px;
+                max-width: 700px;
+
+                span {
+                    color: $color-blue;
+                    font-weight: 700;
                 }
+            }
+        }
+    }
 
+    /* Experiencie */
+    .experience {
+        &_timeline {
+            padding-left: 15px;
+            position: relative;
+            border-left: 2px solid rgba(109, 109, 109, 0.746);
+    
+            .item {
+                margin: 30px 0;
+    
                 .info {
-                    margin-left: 65px;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 10px;
+                        left: -23.5px;
+                        width: 15px;
+                        height: 15px;
+                        background-color: $bg-blue;
+                        border-radius: 50%;
+                    }
 
+                    .title, .company {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: $color-white;
+                    }
+    
                     .title {
                         font-size: 20px;
-                        font-weight: 400;
-
+                        font-weight: 600;
+                        color: $color-blue;
+    
                         small {
-                            color: $color-blue;
+                            color: $color-white;
                             font-size: 14px;
                             font-style: italic;
                             font-weight: 300;
                         }
                     }
-
-                    .description {
-                        font-weight: 500;
-
-                        .position {
-                            font-size: 16px;
-                            font-weight: 300;
-                        }
-                    }
                 }
-            }
 
-            .line {
-                width: 5px;
-                height: 100%;
-                position: absolute;
-                bottom: -30px;
-                left: 18px;
-                background: rgba(109, 109, 109, 0.746);
-            }
-        }
-    }
+                .description {
+                    line-height: 26px;
 
-    /* Projects */
-    .projects {
-        .projects-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            flex-direction: row;
-
-            .card {
-                background-color: #3C4451;
-                border-radius: 15px;
-
-                .card-links {
-                    text-align: end;
-                    margin-top: 15px;
-
-                    a {
-                        margin: 0 5px;
+                    .position {
+                        font-size: 16px;
+                        font-weight: 300;
                     }
                 }
             }
@@ -229,111 +179,4 @@ footer {
         }
     }
     
-}
-
-@media screen and (min-width: $md){
-    /* About */
-    .about {
-        hgroup {
-            display: none;
-        }
-
-        .avatar {
-            h1 {
-                font-size: 3rem;
-            }       
-        }
-
-        .social-networks {
-            margin-top: 20px;
-        }
-    }
-
-    /* Skills */
-    .skills-container {
-        .card {
-            width: 50%;
-        }
-    }
-
-    /* Projects */
-    .projects {
-        .projects-container {
-            .card {
-                width: calc(100% / 3.5);
-            }
-        }
-    }
-}
-
-@media screen and (max-width: $md){
-    .d-md-none {
-        display: none;
-    }
-
-    /* Navbar */
-    .navbar {
-        .menu-toggle {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 55px;
-            left: 0px;
-            -webkit-transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            transition: all .5s ease;
-            background: $bg-blue;
-        }
-
-        &-item{
-            &:hover{
-                color: $color-black;
-            }
-        }
-    }
-
-    /* About */
-    .about {
-        hgroup {
-            line-height: 30px;
-            letter-spacing: 1px;
-            margin-bottom: 25px;
-        }
-
-        .avatar {
-            flex-direction: column; 
-            text-align: center;
-
-            img {
-                width: 60%;
-                margin: 0px auto 20px auto;
-            }
-
-            .social-networks {
-                margin-top: 20px;
-                
-                img {
-                    width: 33px;
-                }
-            }
-        }
-    }
-
-    /* Skills */
-    .skills-container {
-        .card {
-            width: 100%;
-        }
-    }
-
-    /* Projects */
-    .projects {
-        .projects-container {
-            justify-content: center;
-
-            .card {
-                max-width: 400px;
-            }
-        }
-    }
 }

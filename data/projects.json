@@ -1,28 +1,35 @@
 [
     {
-        "id": "8",
-        "name": "Portafolio v2.0",
-        "description": "✅  Se realizarón mejoras en la estructura de carpetas, sera mas sencillo el encontrar algo. <br> ✅  Se integro gulp como herramienta para la compilación. <br /> ✅  Ahora la web esta creada con sass. <br> ✅ Se creo un archivo json para los projectos, y consumir los datos con fetch.",
-        "image": "./assets/images/danielvera.png",
+        "id": "3",
+        "name": "Sistema de Beneficios | Freelancer",
+        "description": "Sistema de Beneficios realizado a la medida para cliente, es un sistema que soporta N empresas cada una cuenta con Beneficios y Colaboradores. Los colaboradores cuenta con una app para hacer uso de los beneficios que brindan cada empresa.",
+        "image": "./assets/images/projects/beneficios.jpg",
         "tags": [
-            "html",
-            "css",
-            "sass",
-            "js"
+            "javascript",
+            "laravel",
+            "mysql"
         ],
-        "repository": "https://github.com/DanielVera987/danielvera",
-        "url": "https://danielvera.com.mx/"
+        "url": ""
     },
     {
         "id": "3",
-        "name": "FactuDav",
-        "description": "FactuDav es un proyecto opensource hecho en Laravel, realizado para los desarrolladores que requieran de un sistema con facturación electronica en México, con este proyecto se pretende tener lo basico para el timbrado de facturas cfdi3.3 desde agregar clientes, productos y la creación de facturas y Pre-facturas",
-        "image": "./assets/images/factudav.png",
+        "name": "Sistema de Facturación Electronica | Freelancer",
+        "description": "Sistema de facturación electronica realizado a la medida para cliente, es un sistema que soporta N clientes para la realización de Facturación, Complemento de Pagos, Registro de Clientes, Punto de Venta, Inventario, Envio de factura a clientes y mucho más.",
+        "image": "./assets/images/projects/facturador.jpg",
         "tags": [
-            "html",
-            "css",
-            "js",
-            "php",
+            "javascript",
+            "laravel",
+            "mysql"
+        ],
+        "url": ""
+    },
+    {
+        "id": "2",
+        "name": "FactuDav - Facturación Electronica",
+        "description": "FactuDav es un proyecto opensource hecho en Laravel, realizado para los desarrolladores que requieran de un sistema con facturación electronica en México, con este proyecto se pretende tener lo basico para el timbrado de facturas cfdi3.3 desde agregar clientes, productos y la creación de facturas y Pre-facturas",
+        "image": "./assets/images/projects/factudav.jpg",
+        "tags": [
+            "javascript",
             "laravel",
             "mysql"
         ],
@@ -33,15 +40,13 @@
         "id": "1",
         "name": "App Prepa Abierta",
         "description": "La App permite al alumno de Preparatoria Abierta del Instituto Barceló, acceder desde su dispositivo al Sistema de Control Escolar, para visualizar su historial académico en tiempo real, calendario de exámenes pendientes por presentar en el mes actual, control de asistencia, así como realizar una autoevaluación de sus materias que cursa, para una formación mas integral en sus conocimientos.",
-        "image": "./assets/images/app.jpg",
+        "image": "./assets/images/projects/app.jpg",
         "tags": [
-            "html",
-            "css",
-            "js",
+            "javascript",
             "php",
             "mysql"
         ],
         "repository": "",
-        "url": "https://play.google.com/store/apps/details?id=appinventor.ai_miguelgarido.PrepaAbierta&hl=es_MX"
+        "url": "https://play.google.com/store/apps/details?id=barcelo.prepa.app&hl=es_CL"
     }
 ]

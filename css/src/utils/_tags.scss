@@ -3,9 +3,10 @@
     font-size: 12px;
     font-weight: 600;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     color: #2a2e37;
     margin: 5px;
+    padding: 4px 10px;
 }
 
 .tag-html {
@@ -20,7 +21,7 @@
     background-color: #CE649A;
 }
 
-.tag-js {
+.tag-javascript, .tag-js {
     background-color: #F0DB4F;
 }
 
@@ -30,14 +31,12 @@
 
 .tag-php {
     background-color: #8993be;
+    color: #e3e3e3;
 }
 
 .tag-laravel {
     background-color: #fb503b;
-}
-
-.tag-react {
-    background-color: #61DBFB;
+    color: #e3e3e3;
 }
 
 .tag-nodejs {
@@ -50,6 +49,7 @@
 
 .tag-mysql {
     background-color: #4F7B99;
+    color: #e3e3e3;
 }
 
 .tag-mongodb {
