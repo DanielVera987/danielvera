@@ -7,7 +7,11 @@
         "tags": [
             "javascript",
             "laravel",
-            "mysql"
+            "PHP",
+            "MYSQL",
+            "DigitalOcean",
+            "HTML",
+            "CSS"
         ],
         "url": ""
     },
@@ -19,7 +23,11 @@
         "tags": [
             "javascript",
             "laravel",
-            "mysql"
+            "PHP",
+            "MYSQL",
+            "DigitalOcean",
+            "HTML",
+            "CSS"
         ],
         "url": ""
     },
@@ -30,8 +38,12 @@
         "image": "./assets/images/projects/factudav.jpg",
         "tags": [
             "javascript",
+            "PHP",
             "laravel",
-            "mysql"
+            "MYSQL",
+            "DigitalOcean",
+            "HTML",
+            "CSS"
         ],
         "repository": "https://github.com/DanielVera987/factudav",
         "url": ""
